@@ -65,7 +65,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--nomral-font-size);
   color: var(--second-color);
-  background-image: linear-gradient(45deg, skyblue, pink);
 }
 
 h1,
@@ -88,6 +87,44 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Heading */
+.heading1 {
+  max-width: 70%;
+  box-sizing: border-box;
+}
+
+/* About Text Content */
+
+.zoom-paragraph {
+  overflow: hidden;
+  position: relative;
+}
+
+.zoom-paragraph::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.zoom-paragraph:hover::after {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.zoom-paragraph p {
+  transition: font-size 0.3s ease;
+}
+
+.zoom-paragraph:hover p {
+  font-size: 120%;
 }
 
 /* CUSTOM CSS CLASSES */
@@ -372,13 +409,14 @@ img {
   background: linear-gradient(to left, #6fb1fc, #7385d8, #5282cf);
 }
 
-.work_img img {
+.work_img {
   transition: 1s;
   cursor: pointer;
 }
 
-.work_img img:hover {
+.work_img :hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 /* Contact */

@@ -54,9 +54,13 @@
       <section class="home bd_grid" id="home">
         <div class="home_data" data-aos="fade-down">
           <h1 class="home_title">
-            Hi, <br />I'm <span class="home_title-color">VISHNU B</span
-            ><br />Front-End developer
+            Hi, I'm <div class="heading home_title-color" id="heading--main"></div>
+            <div class="heading1" id="heading1--main">
+              <p class="course" id="course"></p>
+            </div>              
           </h1>
+          <p class="paragraph" id="paragraph"></p>
+
           <a href="#contact" class="button"> Contact</a>
         </div>
 
@@ -674,7 +678,7 @@
             </svg>
           </div>
 
-          <div>
+          <div class="zoom-paragraph">
             <h2
               class="about_subtitle"
               data-aos="fade-down"
@@ -724,7 +728,7 @@
             <!-- SKILLS HTML -->
             <div class="skills_data" data-aos="fade-right">
               <div class="skills_name">
-                <i class="bx bxl-html5 skill_icon"></i>
+                <i class="bx bxl-html5 bx-tada skill_icon"></i>
                 <span class="skill_name">Html5</span>
               </div>
 
@@ -736,7 +740,7 @@
             <!-- SKILLS css -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class="bx bxl-css3 skill_icon"></i>
+                <i class="bx bxl-css3 bx-tada skill_icon"></i>
                 <span class="skill_name">CSS3</span>
               </div>
 
@@ -748,7 +752,7 @@
             <!-- SKILLS JS -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class="bx bxl-javascript skill_icon"></i>
+                <i class="bx bxl-javascript bx-tada skill_icon"></i>
                 <span class="skill_name">Javascript</span>
               </div>
 
@@ -760,7 +764,7 @@
             <!-- SKILLS Boostrap -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bxl-bootstrap skill_icon'></i>
+                <i class='bx bxl-bootstrap bx-tada skill_icon'></i>
                 <span class="skill_name">Bootstrap</span>
               </div>
 
@@ -772,7 +776,7 @@
             <!-- SKILLS React JS -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class="bx bxl-react skill_icon"></i>
+                <i class="bx bxl-react bx-tada skill_icon"></i>
                 <span class="skill_name">ReactJS</span>
               </div>
 
@@ -784,7 +788,7 @@
             <!-- SKILLS Redux -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bxl-redux skill_icon'></i>
+                <i class='bx bxl-redux bx-tada skill_icon'></i>
                 <span class="skill_name">Redux</span>
               </div>
 
@@ -796,7 +800,7 @@
             <!-- SKILLS Node JS -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bxl-nodejs skill_icon'></i>
+                <i class='bx bxl-nodejs bx-tada skill_icon'></i>
                 <span class="skill_name">NodeJs</span>
               </div>
 
@@ -807,7 +811,7 @@
             <!-- SKILLS MySQL -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bx-data skill_icon'></i>
+                <i class='bx bx-data bx-tada skill_icon'></i>
                 <span class="skill_name">MySQL</span>
               </div>
 
@@ -819,7 +823,7 @@
             <!-- SKILLS MongoDB -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bxl-mongodb skill_icon'></i>
+                <i class='bx bxl-mongodb bx-tada skill_icon'></i>
                 <span class="skill_name">MongoDB</span>
               </div>
 
@@ -830,7 +834,7 @@
             <!-- SKILLS GIT -->
             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
-                <i class='bx bxl-github skill_icon'></i>
+                <i class='bx bxl-github bx-tada skill_icon'></i>
                 <span class="skill_name">Github</span>
               </div>
 
@@ -1110,7 +1114,12 @@
         class="footer_icon"
         data-aos="fade-down"
         data-aos-delay="350"
-        ><i class='bx bx-link skill_icon '>Click here To view the Resume</i></a>
+        >
+        <i class='bx bxs-like bx-fade-left skill_icon'></i>
+        <i class='bx bxs-like bx-fade-right skill_icon'></i>
+        <i class='bx bxs-like bx-fade-up skill_icon'></i>
+        <i class='bx bxs-like bx-fade-down skill_icon'></i>
+        <i class='bx bx-link bx-flashing skill_icon '>Click here to view the Resume</i></a>
       
         </div>
       </section>
@@ -1130,7 +1139,7 @@
               data-aos-delay="250"
             />
             <input
-              type="mail"
+              type="email"
               placeholder="Email"
               class="control_input"
               data-aos="fade-right"
@@ -1138,6 +1147,7 @@
             />
             <textarea
               name=""
+              placeholder="send a hire message to vishnu"
               id=""
               cols="0"
               rows="10"
@@ -1190,11 +1200,11 @@
             data-aos-delay="550"
             ><i class="bx bxl-github"></i
           ></a>
+          <br/><br/>
+          <p>
+            Build with <i class='bx bxl-visual-studio'></i>  and ❤️ by Vishnu
+          </p>
         </div>
-
-        <p data-aos="fade-down" data-aos-delay="650">
-          Email: vishnugowtham97@gmail.com
-        </p>
       </footer>
     </main>
 
