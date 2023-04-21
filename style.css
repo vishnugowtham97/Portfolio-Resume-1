@@ -389,6 +389,37 @@ img {
   width: 100%;
 }
 
+/* education */
+
+.education {
+  text-align: center;
+}
+
+.education_container {
+  row-gap: 2rem;
+}
+
+.education_img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 10px;
+  color: rgb(217, 217, 223);
+  background: #497ac9;
+  background: -webkit-linear-gradient(to left, #6fb1fc, #697ccf, #4e85dd);
+  background: linear-gradient(to left, #6fb1fc, #7385d8, #5282cf);
+}
+
+.education_img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.education_img :hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 /* WORK */
 
 .work {
@@ -543,6 +574,12 @@ img {
 
   .about_img svg {
     width: 450px;
+  }
+
+  .education_container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 
   .work_container {
