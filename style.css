@@ -65,6 +65,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--nomral-font-size);
   color: var(--second-color);
+  background-color: whitesmoke;
 }
 
 h1,
@@ -570,4 +571,26 @@ img {
 }
 .Resume_container {
   text-align: center;
+}
+
+/* Themes */
+/* Dark theme styles */
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Light theme styles */
+body.light {
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* Theme toggle button styles */
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  outline: none;
 }

@@ -24,6 +24,7 @@ function linkAction() {
 }
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+// NAME Style
 function type() {
   let name1 = " VISHNU";
   let namearr = name1.split("");
@@ -44,6 +45,7 @@ function type() {
 
 type();
 
+// Course name board
 const words = [
   "Full Stack Developer",
   "Front End Developer",
@@ -60,3 +62,14 @@ function updateParagraph() {
 }
 
 setInterval(updateParagraph, 1000);
+
+//  Themes
+const themeToggleBtn = document.getElementById("themeToggle");
+
+themeToggleBtn.addEventListener("click", toggleTheme);
+
+function toggleTheme() {
+  const body = document.body;
+  body.classList.toggle("dark");
+  body.classList.toggle("light");
+}
