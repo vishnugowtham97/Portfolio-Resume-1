@@ -247,12 +247,12 @@ img {
 .home_social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--second-color);
+  font-size: 1.8rem;
+  color: #4070f4;
 }
 
 .home_social-icon:hover {
-  color: var(--first-color);
+  color: var(--second-color);
 }
 
 .home_img {

@@ -65,7 +65,6 @@ setInterval(updateParagraph, 1000);
 
 //  Themes
 const themeToggleBtn = document.getElementById("themeToggle");
-
 themeToggleBtn.addEventListener("click", toggleTheme);
 
 function toggleTheme() {
