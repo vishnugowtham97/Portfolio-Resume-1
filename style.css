@@ -433,6 +433,7 @@ img {
 .work_img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
+  height: 100px;
   overflow: hidden;
   padding: 10px;
   color: rgb(217, 217, 223);
@@ -608,6 +609,9 @@ img {
 }
 .Resume_container {
   text-align: center;
+}
+.resume-img {
+  width: 100px;
 }
 
 /* Themes */
