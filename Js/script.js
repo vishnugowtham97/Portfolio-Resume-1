@@ -50,8 +50,7 @@ const words = [
   "Full Stack Developer",
   "Front End Developer",
   "Back End Developer",
-  "Web Developer",
-  "Programmer",
+  "Jr Web Developer",
 ];
 let currentWordIndex = 0;
 const paragraphElement = document.getElementById("course");
@@ -72,3 +71,13 @@ function toggleTheme() {
   body.classList.toggle("dark");
   body.classList.toggle("light");
 }
+
+// JavaScript to close the overlay on click
+const overlay = document.querySelector(".overlay");
+const cardLink = document.querySelector(".card-link");
+
+cardLink.addEventListener("click", (event) => {
+  event.preventDefault();
+  overlay.style.opacity = 0;
+  overlay.style.visibility = "hidden";
+});
