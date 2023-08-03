@@ -641,7 +641,7 @@ body.dark {
 
 /* Light theme styles */
 body.light {
-  background-color: black;
+  background-color: rgb(73, 70, 70);
   color: whitesmoke;
 }
 
