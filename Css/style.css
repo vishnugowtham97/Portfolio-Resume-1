@@ -455,6 +455,8 @@ img {
 }
 
 .work_img img {
+  width: 1000px;
+  height: 250px;
   transition: 1s;
   cursor: pointer;
 }
@@ -764,4 +766,8 @@ body.light {
 
 .text-align li {
   margin-bottom: 5px;
+}
+
+.company {
+  padding: 10px;
 }

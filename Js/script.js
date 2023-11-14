@@ -47,10 +47,10 @@ type();
 
 // Course name board
 const words = [
-  "Full Stack Developer",
-  "Front End Developer",
-  "Back End Developer",
-  "Jr Web Developer",
+  "Web Developer",
+  "Frontend Developer",
+  "Programmer",
+  "Backend Developer",
 ];
 let currentWordIndex = 0;
 const paragraphElement = document.getElementById("course");
