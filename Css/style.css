@@ -421,10 +421,10 @@ img {
   border-radius: 0.5rem;
   overflow: hidden;
   padding: 10px;
-  color: rgb(217, 217, 223);
-  background: #497ac9;
-  background: -webkit-linear-gradient(to left, #6fb1fc, #697ccf, #4e85dd);
-  background: linear-gradient(to left, #6fb1fc, #7385d8, #5282cf);
+  color: black;
+  /* background: #497ac9; */
+  /* background: -webkit-linear-gradient(to left, #6fb1fc, #697ccf, #4e85dd); */
+  /* background: linear-gradient(to left, #6fb1fc, #7385d8, #5282cf); */
 }
 
 .education_img {
@@ -434,6 +434,7 @@ img {
 
 .education_img :hover {
   transform: scale(1.1);
+  color: #497ac9;
   opacity: 1;
 }
 
