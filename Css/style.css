@@ -1,5 +1,9 @@
 /* Google Font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kode+Mono:wght@400..700&display=swap");
+
 /* Variables */
 :root {
   --header-height: 3rem;
@@ -20,6 +24,10 @@
   --big-font-size: 2rem;
   --h2-font-size: 1.5rem;
   --nomral-font-size: 0.938rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-family: "Teko", sans-serif;
+  font-style: normal;
 }
 
 /* Media Screen Min-Width : 768px */
@@ -91,6 +99,7 @@ img {
 }
 
 /* Heading */
+
 .heading1 {
   max-width: 70%;
   box-sizing: border-box;
@@ -235,8 +244,13 @@ img {
   margin-bottom: var(--mb-5);
 }
 
+.home_title_1 {
+  font-family: cursive;
+}
+
 .home_title-color {
   color: var(--first-color);
+  font-family: Kode;
 }
 
 .home_social {
@@ -777,4 +791,23 @@ body.light {
 
 .company {
   padding: 10px;
+}
+
+/* Animations */
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home_img,
+.about_img,
+.skill_img {
+  animation: moveUpDown 2s ease-in-out infinite;
 }

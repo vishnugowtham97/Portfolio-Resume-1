@@ -50,7 +50,8 @@ const words = [
   "Web Developer",
   "Frontend Developer",
   "Programmer",
-  "Backend Developer",
+  "React Developer",
+  "Traveller",
 ];
 let currentWordIndex = 0;
 const paragraphElement = document.getElementById("course");
