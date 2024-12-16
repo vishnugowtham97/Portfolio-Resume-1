@@ -1,278 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      type="x-icon"
-      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToA3xfv6kMKu7bvdMYHpdij7kp3_EgusWmKg&usqp=CAU"
-    />
-    <title>Vishnu's Portfolio</title>
-    <link rel="stylesheet" href="./Css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header class="header">
-      <nav class="nav bd_grid">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToA3xfv6kMKu7bvdMYHpdij7kp3_EgusWmKg&usqp=CAU" />
+  <title>Vishnu's Portfolio</title>
+  <link rel="stylesheet" href="./Css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="nav bd_grid">
+      <div>
+        <a href="https://drive.google.com/file/d/1tDBt0zKtIfakJMQLmtCZELSFNXpuf6Zu/view?usp=sharing"
+          class="nav_logo">Vishnu B</a>
+      </div>
+
+      <div class="nav_menu" id="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_items">
+            <a href="#home" class="nav_link active">Home</a>
+          </li>
+          <li class="nav_items">
+            <a href="#about" class="nav_link active">About</a>
+          </li>
+          <li class="nav_items">
+            <a href="#skills" class="nav_link active">Skills</a>
+          </li>
+          <li class="nav_items">
+            <a href="#education" class="nav_link active">Education</a>
+          </li>
+          <li class="nav_items">
+            <a href="#project" class="nav_link active">Projects</a>
+          </li>
+          <li class="nav_items">
+            <a href="#work" class="nav_link active">Work</a>
+          </li>
+          <li class="nav_items">
+            <a href="#Resume" class="nav_link active">Resume</a>
+          </li>
+          <li class="nav_items">
+            <a href="#contact" class="nav_link active">Contact</a>
+          </li>
+          <li class="nav_items">
+            <button id="themeToggle" class="theme-toggle-btn">
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav_toggle">
+        <i class="bx bx-menu-alt-right"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- HOME SECTION -->
+    <section class="home bd_grid" id="home">
+      <div class="home_data" data-aos="fade-down">
+        <h1 class="home_title">
+          <span class="home_title_1">Hi, I'm</span>
+          <div class="heading home_title-color" id="heading--main"></div>
+          <div class="heading1" id="heading1--main">
+            <p class="course" id="course"></p>
+          </div>
+        </h1>
+        <p class="paragraph" id="paragraph"></p>
+
+        <a href="#contact" class="button"> Contact</a>
+      </div>
+
+      <div class="home_social">
+        <a href="https://www.linkedin.com/in/vishnugowtham97/" class="home_social-icon" data-aos="fade-down"><i
+            class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/vishnu_the_b?igsh=MTA0Z2NtdmVzbzE2cg==" class="home_social-icon"
+          data-aos="fade-down" data-aos-delay="250"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com/woolfyjr?t=6eAX97_dLUnFGQDNYlpLjw&s=09" class="home_social-icon"
+          data-aos="fade-down" data-aos-delay="300"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="350"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+        <img src="./Assets/Homee.svg" alt="" />
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <h2 class="section-title" data-aos="fade-down">About</h2>
+
+      <div class="about_container bd_grid">
+        <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+          <img src="./Assets/profile.svg" alt="" />
+        </div>
+
+        <div class="zoom-paragraph">
+          <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">
+            I'm VISHNU
+          </h2>
+          <p class="about_text" data-aos="fade-down" data-aos-delay="450"></p>
+          <p>
+            Hello! My name is VISHNU B, and I'm a passionate full-stack
+            developer. I am graduated with a degree in Electrical and
+            Electronics Engineering and have been honing my skills in web
+            development ever since.
+          </p>
+          <hr />
+          <p>
+            I'm comfortable working with a range of technologies, including
+            HTML, CSS, JavaScript, and various frameworks such as Bootstrap
+            and React. My experience also includes working with backend
+            technologies such as Node.js as well as databases like MySQL and
+            MongoDB.
+          </p>
+          <hr />
+          <p>
+            I love learning new things and am always seeking to expand my
+            skill set. I'm a dedicated team player and enjoy collaborating
+            with others to achieve a common goal. In my free time, you can
+            find me tinkering with code and exploring new projects.
+          </p>
+          <hr />
+          <p>
+            If you're interested in working together, feel free to reach out!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+      <div class="skills_container bd_grid">
         <div>
-          <a href="https://drive.google.com/file/d/1tDBt0zKtIfakJMQLmtCZELSFNXpuf6Zu/view?usp=sharing" class="nav_logo"
-            >Vishnu B</a
-          >
-        </div>
-
-        <div class="nav_menu" id="nav_menu">
-          <ul class="nav_list">
-            <li class="nav_items">
-              <a href="#home" class="nav_link active">Home</a>
-            </li>
-            <li class="nav_items">
-              <a href="#about" class="nav_link active">About</a>
-            </li>
-            <li class="nav_items">
-              <a href="#skills" class="nav_link active">Skills</a>
-            </li>
-            <li class="nav_items">
-              <a href="#education" class="nav_link active">Education</a>
-            </li>
-            <li class="nav_items">
-              <a href="#project" class="nav_link active">Projects</a>
-            </li>
-            <li class="nav_items">
-              <a href="#work" class="nav_link active">Work</a>
-            </li>
-            <li class="nav_items">
-              <a href="#Resume" class="nav_link active">Resume</a>
-            </li>
-            <li class="nav_items">
-              <a href="#contact" class="nav_link active">Contact</a>
-            </li>
-            <li class="nav_items">
-              <button id="themeToggle" class="theme-toggle-btn">
-                <i class="fas fa-sun"></i>
-              </button>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav_toggle" id="nav_toggle">
-          <i class="bx bx-menu-alt-right"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="main">
-      <!-- HOME SECTION -->
-      <section class="home bd_grid" id="home">
-        <div class="home_data" data-aos="fade-down">
-          <h1 class="home_title">
-            <span class="home_title_1">Hi, I'm</span>
-            <div class="heading home_title-color" id="heading--main"></div>
-            <div class="heading1" id="heading1--main">
-              <p class="course" id="course"></p>
+          <h2 class="skills_subtitle" data-aos="fade-down" data-aos-delay="250">
+            Professional Skills
+          </h2>
+          <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+            Without sharpen your weapon standing on the battlefield would not
+            increase your chance of winning
+          </p>
+          <!-- SKILLS HTML -->
+          <div class="skills_data" data-aos="fade-right">
+            <div class="skills_name">
+              <i class="bx bxl-html5 bx-tada skill_icon"></i>
+              <span class="skill_name">Html5</span>
             </div>
-          </h1>
-          <p class="paragraph" id="paragraph"></p>
 
-          <a href="#contact" class="button"> Contact</a>
-        </div>
+            <div><span class="skill_percentage"></span></div>
 
-        <div class="home_social">
-          <a
-            href="https://www.linkedin.com/in/vishnugowtham97/"
-            class="home_social-icon"
-            data-aos="fade-down"
-            ><i class="bx bxl-linkedin-square"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/vishnu_the_b?igsh=MTA0Z2NtdmVzbzE2cg=="
-            class="home_social-icon"
-            data-aos="fade-down"
-            data-aos-delay="250"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            href="https://twitter.com/woolfyjr?t=6eAX97_dLUnFGQDNYlpLjw&s=09"
-            class="home_social-icon"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a
-            href="#"
-            class="home_social-icon"
-            data-aos="fade-down"
-            data-aos-delay="350"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
-
-        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
-          <img src="./Assets/Homee.svg" alt="" />
-        </div>
-      </section>
-
-      <!-- ABOUT SECTION -->
-      <section class="about section" id="about">
-        <h2 class="section-title" data-aos="fade-down">About</h2>
-
-        <div class="about_container bd_grid">
-          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
-            <img src="./Assets/profile.svg" alt="" />
+            <div class="skill_bar skill_html"></div>
           </div>
 
-          <div class="zoom-paragraph">
-            <h2
-              class="about_subtitle"
-              data-aos="fade-down"
-              data-aos-delay="350"
-            >
-              I'm VISHNU
-            </h2>
-            <p class="about_text" data-aos="fade-down" data-aos-delay="450"></p>
-            <p>
-              Hello! My name is VISHNU B, and I'm a passionate full-stack
-              developer. I am graduated with a degree in Electrical and
-              Electronics Engineering and have been honing my skills in web
-              development ever since.
-            </p>
-            <hr />
-            <p>
-              I'm comfortable working with a range of technologies, including
-              HTML, CSS, JavaScript, and various frameworks such as Bootstrap
-              and React. My experience also includes working with backend
-              technologies such as Node.js as well as databases like MySQL and
-              MongoDB.
-            </p>
-            <hr />
-            <p>
-              I love learning new things and am always seeking to expand my
-              skill set. I'm a dedicated team player and enjoy collaborating
-              with others to achieve a common goal. In my free time, you can
-              find me tinkering with code and exploring new projects.
-            </p>
-            <hr />
-            <p>
-              If you're interested in working together, feel free to reach out!
-            </p>
+          <!-- SKILLS css -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-css3 bx-tada skill_icon"></i>
+              <span class="skill_name">CSS3</span>
+            </div>
+
+            <div><span class="skill_percentage"></span></div>
+
+            <div class="skill_bar skill_css"></div>
           </div>
-        </div>
-      </section>
 
-      <!-- SKILLS SECTION -->
-      <section class="skills section" id="skills">
-        <h2 class="section-title" data-aos="fade-down">Skills</h2>
-
-        <div class="skills_container bd_grid">
-          <div>
-            <h2
-              class="skills_subtitle"
-              data-aos="fade-down"
-              data-aos-delay="250"
-            >
-              Professional Skills
-            </h2>
-            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
-              Without sharpen your weapon standing on the battlefield would not
-              increase your chance of winning
-            </p>
-            <!-- SKILLS HTML -->
-            <div class="skills_data" data-aos="fade-right">
-              <div class="skills_name">
-                <i class="bx bxl-html5 bx-tada skill_icon"></i>
-                <span class="skill_name">Html5</span>
-              </div>
-
-              <div><span class="skill_percentage"></span></div>
-
-              <div class="skill_bar skill_html"></div>
+          <!-- SKILLS Tailwindcss -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-tailwind-css bx-tada skill_icon"></i>
+              <span class="skill_name">Tailwind css</span>
             </div>
 
-            <!-- SKILLS css -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-css3 bx-tada skill_icon"></i>
-                <span class="skill_name">CSS3</span>
-              </div>
+            <div><span class="skill_percentage"></span></div>
 
-              <div><span class="skill_percentage"></span></div>
+            <div class="skill_bar skill_css"></div>
+          </div>
 
-              <div class="skill_bar skill_css"></div>
+          <!-- SKILLS JS -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-javascript bx-tada skill_icon"></i>
+              <span class="skill_name">Javascript</span>
             </div>
 
-            <!-- SKILLS Tailwindcss -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-tailwind-css bx-tada skill_icon"></i>
-                <span class="skill_name">Tailwind css</span>
-              </div>
+            <div><span class="skill_percentage"></span></div>
 
-              <div><span class="skill_percentage"></span></div>
+            <div class="skill_bar skill_js"></div>
+          </div>
 
-              <div class="skill_bar skill_css"></div>
+          <!-- SKILLS Boostrap -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-bootstrap bx-tada skill_icon"></i>
+              <span class="skill_name">Bootstrap</span>
             </div>
 
-            <!-- SKILLS JS -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-javascript bx-tada skill_icon"></i>
-                <span class="skill_name">Javascript</span>
-              </div>
+            <div><span class="skill_percentage"></span></div>
 
-              <div><span class="skill_percentage"></span></div>
+            <div class="skill_bar skill_boostrap"></div>
+          </div>
 
-              <div class="skill_bar skill_js"></div>
+          <!-- SKILLS React JS -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-react bx-tada skill_icon"></i>
+              <span class="skill_name">ReactJS</span>
             </div>
 
-            <!-- SKILLS Boostrap -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-bootstrap bx-tada skill_icon"></i>
-                <span class="skill_name">Bootstrap</span>
-              </div>
+            <div><span class="skill_percentage"></span></div>
 
-              <div><span class="skill_percentage"></span></div>
+            <div class="skill_bar skill_reactjs"></div>
+          </div>
 
-              <div class="skill_bar skill_boostrap"></div>
+          <!-- Skills React Redux/toolkit -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-react bx-tada skill_icon"></i>
+              <span class="skill_name">React Redux/toolkit</span>
             </div>
 
-            <!-- SKILLS React JS -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-react bx-tada skill_icon"></i>
-                <span class="skill_name">ReactJS</span>
-              </div>
+            <div><span class="skill_percentage"></span></div>
 
-              <div><span class="skill_percentage"></span></div>
+            <div class="skill_bar skill_reactjs"></div>
+          </div>
 
-              <div class="skill_bar skill_reactjs"></div>
-            </div>
-
-            <!-- Skills React Redux/toolkit -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-react bx-tada skill_icon"></i>
-                <span class="skill_name">React Redux/toolkit</span>
-              </div>
-
-              <div><span class="skill_percentage"></span></div>
-
-              <div class="skill_bar skill_reactjs"></div>
-            </div>
-
-            <!-- SKILLS Node JS -->
-            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+          <!-- SKILLS Node JS -->
+          <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
                 <i class="bx bxl-nodejs bx-tada skill_icon"></i>
                 <span class="skill_name">NodeJs</span>
@@ -282,8 +246,8 @@
 
               <div class="skill_bar skill_nodejs"></div>
             </div> -->
-            <!-- SKILLS MySQL -->
-            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+          <!-- SKILLS MySQL -->
+          <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
                 <i class="bx bx-data bx-tada skill_icon"></i>
                 <span class="skill_name">MySQL</span>
@@ -294,8 +258,8 @@
               <div class="skill_bar skill_mysql"></div>
             </div> -->
 
-            <!-- SKILLS MongoDB -->
-            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+          <!-- SKILLS MongoDB -->
+          <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
                 <i class="bx bxl-mongodb bx-tada skill_icon"></i>
                 <span class="skill_name">MongoDB</span>
@@ -305,19 +269,19 @@
 
               <div class="skill_bar skill_mongodb"></div>
             </div> -->
-            <!-- SKILLS GIT -->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
-              <div class="skills_name">
-                <i class="bx bxl-github bx-tada skill_icon"></i>
-                <span class="skill_name">Git & Github</span>
-              </div>
-
-              <div><span class="skill_percentage"></span></div>
-
-              <div class="skill_bar skill_git"></div>
+          <!-- SKILLS GIT -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-github bx-tada skill_icon"></i>
+              <span class="skill_name">Git & Github</span>
             </div>
-            <!-- SKILLS AWS -->
-            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+
+            <div><span class="skill_percentage"></span></div>
+
+            <div class="skill_bar skill_git"></div>
+          </div>
+          <!-- SKILLS AWS -->
+          <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
               <div class="skills_name">
                 <i class="bx bxl-aws bx-tada skill_icon"></i>
                 <span class="skill_name">AWS</span>
@@ -327,337 +291,46 @@
 
               <div class="skill_bar skill_aws"></div>
             </div> -->
-          </div>
-
-          <div data-aos="fade-left" data-aos-delay="350" class="skill_img">
-            <img src="./Assets/Percentage.svg" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <!-- EDUCATION SECTION -->
-      <section class="work section" id="education">
-        <h2 class="section-title" data-aos="fade-down">Education</h2>
-        <div class="work_section">
-        <div
-          class="work_container bd_grid"
-          data-aos="fade-down"
-          data-aos-delay="250"
-        >        
-        <div class="card-2">
-          <div class="card-content-2">
-            <p class="title-para">Sri Shakthi Institute of Engineering And Technology</p>
-            <br/>
-            <p class="card-para-2">Electrical & Electronics Engineering</p>
-            <p class="card-para-2">2015-2019</p>
-            <p class="card-para-2">CGPA - 6.30 out of 10</p>
-          </div>
-        </div>
-        
-        <div class="card-2">
-          <div class="card-content-2">
-            <p class="title-para">S.E.S Matriculation and higher secondary school</p>
-            <br/>
-            <p class="card-para-2">HSC</p>
-            <p class="card-para-2">2015</p>
-            <p class="card-para-2">HSC - 85 out of 100</p>
-          </div>
         </div>
 
-        <div class="card-2">
-          <div class="card-content-2">
-            <p class="title-para">S.E.S Matriculation and higher secondary school</p>
-            <br/>
-            <p class="card-para-2">SSLC</p>
-            <p class="card-para-2">2013</p>
-            <p class="card-para-2">SSLC - 87 out of 100</p>
-          </div>
-        </div>
-        
+        <div data-aos="fade-left" data-aos-delay="350" class="skill_img">
+          <img src="./Assets/Percentage.svg" alt="" />
         </div>
       </div>
-      </section>
+    </section>
 
-      <!-- Project SECTION -->
-      <section class="work section" id="project">
-        <h2 class="section-title" data-aos="fade-down">Project</h2>
-
-        <div
-          class="project_container bd_grid"
-          data-aos="fade-down"
-          data-aos-delay="250"
-        >
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="data:image/jpeg;base64,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" alt="">
-              <h2 class="card-title">Free-Learning Web App</h2>
-              <p class="card-description">Created a comprehensive web application inspired by ZenClass, leveraging 
-                  React.js, Node.js, and MongoDB. </p>
-              <ul class="text-align">
-                <li>Developed features such as a student dashboard, course enrollment, assignment submission, and 
-                  progress tracking.</li>
-                <li>Integrated APIs for real-time data updates, including course information, deadlines, grades & 
-                  certificates.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Free-Learning web Application</h3>               
-                <p>This project is a full-stack web application that the functionality of the student dashboard.</p>
-                <a href="https://vishnugowtham-student-dasboard.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/zenclass-student-dashboard.git">Source</a> -->
-              </div>
+    <!-- EDUCATION SECTION -->
+    <section class="work section" id="education">
+      <h2 class="section-title" data-aos="fade-down">Education</h2>
+      <div class="work_section">
+        <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+          <div class="card-2">
+            <div class="card-content-2">
+              <p class="title-para">Sri Shakthi Institute of Engineering And Technology</p>
+              <br />
+              <p class="card-para-2">Electrical & Electronics Engineering</p>
+              <p class="card-para-2">2015-2019</p>
+              <p class="card-para-2">CGPA - 6.30 out of 10</p>
             </div>
           </div>
 
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://techcrunch.com/wp-content/uploads/2021/09/shopee-india.jpg" alt="">
-              <h2 class="card-title">Shopee E-commerce</h2>
-              <p class="card-description">The Shopee website frontend, developed with React and Bootstrap, integrates 
-                a secure payment gateway for seamless and Events online ticket Bookings.
-              </p>
-              <ul class="text-align">
-                <li>Seamless integration with a reliable payment gateway to facilitate secure and efficient online transactions</li>
-                <li>User registration and authentication system</li>
-                <li>Shopping cart functionality with the ability to add, view, and manage items</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>E-commerce website</h3>               
-                <p>This project is a frontend e-commerce web application with payment gateway.</p>
-                <a href="https://shopee-vishnu-ecommerce-app.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/Shopee-E-commerce-.git">Source</a> -->
-              </div>
+          <div class="card-2">
+            <div class="card-content-2">
+              <p class="title-para">S.E.S Matriculation and higher secondary school</p>
+              <br />
+              <p class="card-para-2">HSC</p>
+              <p class="card-para-2">2015</p>
+              <p class="card-para-2">HSC - 85 out of 100</p>
             </div>
           </div>
 
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntc99Yi0qGus5VAHolWbOaAhH0AH2aem1avwSU5XBPFOa02JiCDJQxNT5UevnM-YaH5U&usqp=CAU" alt="">
-              <h2 class="card-title">Weather Web App</h2>
-              <p class="card-description">Experience weather updates at your fingertips with our HTML, CSS, and JavaScript-powered Weather App—delivering dynamic real-time data 
-                for a visually captivating, secure, and up-to-the-minute forecast.</p>
-              <ul class="text-align">
-                <li>Responsive design and seamless user interface crafted with HTML and CSS</li>
-                <li>Dynamic weather data fetched through real-time JavaScript API integration</li>
-                <li>Secure and efficient experience ensuring accurate and constantly updated information</li>
-              
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Weather APP</h3>               
-                <p>This project is a Weather web application user interface for accessing real-time weather data and forecasts.</p>
-                <a href="https://vishnu-weatherapp.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/Weather-app.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNULIG45r4IP52H2jyPXNgdWBEPuCBUxfNynrr9Vbu0HMcBQgRpKZ24673GVL04IXJINE&usqp=CAU" alt="">
-              <h2 class="card-title">Analog Clock UI</h2>
-              <p class="card-description">Crafted an elegant and interactive analog clock user interface using HTML,
-                CSS and JavaScript.</p>
-              <ul class="text-align">
-                <li>The analog clock accurately displays the current time, providing a visually appealing 
-                  representation of time.</li>
-                <li>Implemented smooth animations and transitions for seamless movement of clock hands.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Analog Clock UI</h3>               
-                <p>The analog clock UI project showcases my proficiency in HTML, CSS, and JavaScript, along with 
-                  attention to detail in creating visually engaging user interfaces.
-                </p>
-                <a href="https://clock-ui-json-particle.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/clock-ui-json-particle.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh8ycWWr1Dq2aagRe6zkqq_kb_AniDo0hljjtCTqrf&s" alt="">
-              <h2 class="card-title">Airbnb Clone</h2>
-              <p class="card-description">A web application replicating the Airbnb platform's property listing, search, details, and review features with React and Material-UI.</p>
-              <ul class="text-align">
-                <li>Successfully recreated Airbnb's fundamental functionalities, encompassing property listing, search, review and details.</li>
-                <li>Utilized React for frontend development and Material-UI for consistent UI design, resulting in a responsive and visually appealing user interface.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Airbnb Clone webapp</h3>               
-                <p>This project is a frontend based with responsive UI.</p>
-                <a href="https://clonedairbnb-react.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/airbnb-React.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-         
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFIEWL2aiwrELIYLPfWLV-IMU-yxjADAYSbmqnd3WmxKLKg0WBuZCugGqzMxfawB7u1s&usqp=CAU" alt="">
-              <h2 class="card-title">Stack overflow clone</h2>
-              <p class="card-description">A Stack Overflow clone project built with ReactJS, NodeJs and MongoDB. 
-                It includes features such as:</p>
-              <ul class="text-align">
-                <li>User registration and authentication system</li>
-                <li>Posting questions and answers</li>
-                <li>Tagging questions for categorization</li>
-                <li>Search functionality</li>
-                <li>Commenting on questions and answers etc.,</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>StackOverflow Clone</h3>               
-                <p>This project is a full-stack web application that replicates the functionality of Stack Overflow.</p>
-                <a href="https://stack-overflow-clone-vishnu.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/stack-overflow-clone-app.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHBvcnRmb2xpbyUyMHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-              <h2 class="card-title">Portfolio-React</h2>
-              <p class="card-description">Innovative portfolio website showcasing my projects, skills, and achievements in a visually engaging and interactive card-based format.</p>
-              <ul class="text-align">
-                <li>Crafted using modern front-end tools such as React and Material-UI, ensuring a sleek user experience through responsive design and interactive components.</li>
-                <li>Showcase select projects that exemplify your skills in advanced styling, animations, and scrolling effects, providing tangible evidence of your expertise.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Portfolio</h3>               
-                <p>Prioritized user experience through responsive UI design, ensuring optimal display across various devices and screen sizes</p>
-                <a href="https://vishnu-portfolio-reume.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/My-Portfolio.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="./Assets/v.png" alt="">
-              <h2 class="card-title">Modern webpage</h2>
-              <p class="card-description">Craft an innovative website with cutting-edge styling, leveraging advanced CSS techniques and captivating animations, enhanced with scrolling effects.</p>
-              <ul class="text-align">
-                <li>Sleek and modern design with sophisticated layout and typography.
-                  Advanced CSS styling,custom properties for dynamic visual effects.</li>
-                <li>Attention to detail in micro-interactions and subtle animations to delight users throughout their browsing experience</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Modern webPage</h3>               
-                <p>Demonstrate a commitment to staying updated with the latest web design trends and technologies through continuous learning and professional development</p>
-                <a href="https://vishnu-xii-vikings.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/cricket-team_website.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <h2 class="card-title">Deck Of Cards</h2>
-              <p class="card-description">This JavaScript code fetches a shuffled deck of cards from the Deck of Cards API, and upon clicking a button, draws the first 12 cards from the deck and displays them on a web page.</p>
-              <ul class="text-align">
-                <li>JavaScript for scripting, fetching API data, and DOM manipulation.</li>
-                <li>Event Handling: Used the addEventListener method to respond to the click event on the "Shuffle" button.</li>
-              <li>Utilized the Fetch API to make asynchronous network requests to the Deck of Cards API and retrieve data.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Deck of cards</h3>               
-                <p>The asynchronous nature of JavaScript through promises and manipulated dynamically using the Fetch API and DOM manipulation techniques </p>
-                <a href="https://vishnugowtham-deckofcards-api.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/Deck-of-Cards.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjC8Gsr9mZsKZ0ae7Mz67m-9ViUqo1aA_8A&usqp=CAU" alt="">
-              <h2 class="card-title">Petzone</h2>
-              <p class="card-description">Created web application the PetZone platform's using Tailwind Css with React and Material-UI.</p>
-              <ul class="text-align">
-                <li>Utilized Tailwind CSS to design a responsive and appealing web interface for PetZone, an online pet store.</li>
-                <li>Leveraged Tailwind's utility classes for efficient layout creation, resulting in a seamless browsing experience across devices.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>PetZone</h3>               
-                <p>This project is a frontend based with responsive UI.</p>
-                <a href="https://vishnu-petzone.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/petzone-tailwind-css.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEA3I8OnVMd2JV8nWVOGWbKFNIIi_dU5OclMnQcW3L9boVWr0xQtKYaCi48JchjkdYbf8&usqp=CAU" alt="">
-              <h2 class="card-title">Analog Clock UI</h2>
-              <p class="card-description">Crafted an elegant and interactive analog clock user interface using HTML,
-                CSS and JavaScript.</p>
-              <ul class="text-align">
-                <li>The analog clock accurately displays the current time, providing a visually appealing 
-                  representation of time.</li>
-                <li>Implemented smooth animations and transitions for seamless movement of clock hands.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Analog Clock UI</h3>               
-                <p>The analog clock UI project showcases my proficiency in HTML, CSS, and JavaScript, along with 
-                  attention to detail in creating visually engaging user interfaces.
-                </p>
-                <a href="https://simple-analogclock-ui.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/Clock-UI.git">Source</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-down">
-            <div class="card-content">
-              <img src="data:image/jpeg;base64,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" alt="">
-              <h2 class="card-title">Car Showroom info</h2>
-              <p class="card-description">A dynamic React.js frontend showcasing car inventory and dealership details for an engaging user experience.</p>
-              <ul class="text-align">
-                <li>Showroom Info React delivers an engaging and responsive user interface using React.js.</li>
-                <li>It provides comprehensive vehicle specifications and dealership details for a user-friendly experience.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <h3>Showroom Info ReactJS</h3>               
-                <p>The project focuses on performance optimization to ensure smooth and efficient user interactions, contributing to a seamless browsing experience.</p>
-                <a href="https://vishnu-carshowroom-info.netlify.app/">Live</a>
-                <!-- <a href="https://github.com/vishnugowtham97/Showroom-info.git">Source</a> -->
-              </div>
+          <div class="card-2">
+            <div class="card-content-2">
+              <p class="title-para">S.E.S Matriculation and higher secondary school</p>
+              <br />
+              <p class="card-para-2">SSLC</p>
+              <p class="card-para-2">2013</p>
+              <p class="card-para-2">SSLC - 87 out of 100</p>
             </div>
           </div>
 
@@ -665,83 +338,451 @@
       </div>
     </section>
 
-      <!-- WORK SECTION -->
-      <section class="work section" id="work">
-        <h2 class="section-title" data-aos="fade-down">Work</h2>
+    <!-- Project SECTION -->
+    <section class="work section" id="project">
+      <h2 class="section-title" data-aos="fade-down">Project</h2>
 
-       <div class="work_wraper"> 
-        <div
-        class="work_container bd_grid"
-        data-aos="fade-down"
-        data-aos-delay="250"
-      >
+      <div class="project_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="">
+            <h2 class="card-title">Free-Learning Web App</h2>
+            <p class="card-description">Created a comprehensive web application inspired by ZenClass, leveraging
+              React.js, Node.js, and MongoDB. </p>
+            <ul class="text-align">
+              <li>Developed features such as a student dashboard, course enrollment, assignment submission, and
+                progress tracking.</li>
+              <li>Integrated APIs for real-time data updates, including course information, deadlines, grades &
+                certificates.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Free-Learning web Application</h3>
+              <p>This project is a full-stack web application that the functionality of the student dashboard.</p>
+              <a href="https://vishnugowtham-student-dasboard.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/zenclass-student-dashboard.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img src="https://techcrunch.com/wp-content/uploads/2021/09/shopee-india.jpg" alt="">
+            <h2 class="card-title">Shopee E-commerce</h2>
+            <p class="card-description">The Shopee website frontend, developed with React and Bootstrap, integrates
+              a secure payment gateway for seamless and Events online ticket Bookings.
+            </p>
+            <ul class="text-align">
+              <li>Seamless integration with a reliable payment gateway to facilitate secure and efficient online
+                transactions</li>
+              <li>User registration and authentication system</li>
+              <li>Shopping cart functionality with the ability to add, view, and manage items</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>E-commerce website</h3>
+              <p>This project is a frontend e-commerce web application with payment gateway.</p>
+              <a href="https://shopee-vishnu-ecommerce-app.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/Shopee-E-commerce-.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntc99Yi0qGus5VAHolWbOaAhH0AH2aem1avwSU5XBPFOa02JiCDJQxNT5UevnM-YaH5U&usqp=CAU"
+              alt="">
+            <h2 class="card-title">Weather Web App</h2>
+            <p class="card-description">Experience weather updates at your fingertips with our HTML, CSS, and
+              JavaScript-powered Weather App—delivering dynamic real-time data
+              for a visually captivating, secure, and up-to-the-minute forecast.</p>
+            <ul class="text-align">
+              <li>Responsive design and seamless user interface crafted with HTML and CSS</li>
+              <li>Dynamic weather data fetched through real-time JavaScript API integration</li>
+              <li>Secure and efficient experience ensuring accurate and constantly updated information</li>
+
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Weather APP</h3>
+              <p>This project is a Weather web application user interface for accessing real-time weather data and
+                forecasts.</p>
+              <a href="https://vishnu-weatherapp.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/Weather-app.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNULIG45r4IP52H2jyPXNgdWBEPuCBUxfNynrr9Vbu0HMcBQgRpKZ24673GVL04IXJINE&usqp=CAU"
+              alt="">
+            <h2 class="card-title">Analog Clock UI</h2>
+            <p class="card-description">Crafted an elegant and interactive analog clock user interface using HTML,
+              CSS and JavaScript.</p>
+            <ul class="text-align">
+              <li>The analog clock accurately displays the current time, providing a visually appealing
+                representation of time.</li>
+              <li>Implemented smooth animations and transitions for seamless movement of clock hands.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Analog Clock UI</h3>
+              <p>The analog clock UI project showcases my proficiency in HTML, CSS, and JavaScript, along with
+                attention to detail in creating visually engaging user interfaces.
+              </p>
+              <a href="https://clock-ui-json-particle.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/clock-ui-json-particle.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh8ycWWr1Dq2aagRe6zkqq_kb_AniDo0hljjtCTqrf&s"
+              alt="">
+            <h2 class="card-title">Airbnb Clone</h2>
+            <p class="card-description">A web application replicating the Airbnb platform's property listing, search,
+              details, and review features with React and Material-UI.</p>
+            <ul class="text-align">
+              <li>Successfully recreated Airbnb's fundamental functionalities, encompassing property listing, search,
+                review and details.</li>
+              <li>Utilized React for frontend development and Material-UI for consistent UI design, resulting in a
+                responsive and visually appealing user interface.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Airbnb Clone webapp</h3>
+              <p>This project is a frontend based with responsive UI.</p>
+              <a href="https://clonedairbnb-react.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/airbnb-React.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFIEWL2aiwrELIYLPfWLV-IMU-yxjADAYSbmqnd3WmxKLKg0WBuZCugGqzMxfawB7u1s&usqp=CAU"
+              alt="">
+            <h2 class="card-title">Stack overflow clone</h2>
+            <p class="card-description">A Stack Overflow clone project built with ReactJS, NodeJs and MongoDB.
+              It includes features such as:</p>
+            <ul class="text-align">
+              <li>User registration and authentication system</li>
+              <li>Posting questions and answers</li>
+              <li>Tagging questions for categorization</li>
+              <li>Search functionality</li>
+              <li>Commenting on questions and answers etc.,</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>StackOverflow Clone</h3>
+              <p>This project is a full-stack web application that replicates the functionality of Stack Overflow.</p>
+              <a href="https://stack-overflow-clone-vishnu.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/stack-overflow-clone-app.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHBvcnRmb2xpbyUyMHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="">
+            <h2 class="card-title">Portfolio-React</h2>
+            <p class="card-description">Innovative portfolio website showcasing my projects, skills, and achievements in
+              a visually engaging and interactive card-based format.</p>
+            <ul class="text-align">
+              <li>Crafted using modern front-end tools such as React and Material-UI, ensuring a sleek user experience
+                through responsive design and interactive components.</li>
+              <li>Showcase select projects that exemplify your skills in advanced styling, animations, and scrolling
+                effects, providing tangible evidence of your expertise.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Portfolio</h3>
+              <p>Prioritized user experience through responsive UI design, ensuring optimal display across various
+                devices and screen sizes</p>
+              <a href="https://vishnu-portfolio-reume.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/My-Portfolio.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img src="./Assets/v.png" alt="">
+            <h2 class="card-title">Modern webpage</h2>
+            <p class="card-description">Craft an innovative website with cutting-edge styling, leveraging advanced CSS
+              techniques and captivating animations, enhanced with scrolling effects.</p>
+            <ul class="text-align">
+              <li>Sleek and modern design with sophisticated layout and typography.
+                Advanced CSS styling,custom properties for dynamic visual effects.</li>
+              <li>Attention to detail in micro-interactions and subtle animations to delight users throughout their
+                browsing experience</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Modern webPage</h3>
+              <p>Demonstrate a commitment to staying updated with the latest web design trends and technologies through
+                continuous learning and professional development</p>
+              <a href="https://vishnu-xii-vikings.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/cricket-team_website.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <h2 class="card-title">Deck Of Cards</h2>
+            <p class="card-description">This JavaScript code fetches a shuffled deck of cards from the Deck of Cards
+              API, and upon clicking a button, draws the first 12 cards from the deck and displays them on a web page.
+            </p>
+            <ul class="text-align">
+              <li>JavaScript for scripting, fetching API data, and DOM manipulation.</li>
+              <li>Event Handling: Used the addEventListener method to respond to the click event on the "Shuffle"
+                button.</li>
+              <li>Utilized the Fetch API to make asynchronous network requests to the Deck of Cards API and retrieve
+                data.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Deck of cards</h3>
+              <p>The asynchronous nature of JavaScript through promises and manipulated dynamically using the Fetch API
+                and DOM manipulation techniques </p>
+              <a href="https://vishnugowtham-deckofcards-api.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/Deck-of-Cards.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjC8Gsr9mZsKZ0ae7Mz67m-9ViUqo1aA_8A&usqp=CAU"
+              alt="">
+            <h2 class="card-title">Petzone</h2>
+            <p class="card-description">Created web application the PetZone platform's using Tailwind Css with React and
+              Material-UI.</p>
+            <ul class="text-align">
+              <li>Utilized Tailwind CSS to design a responsive and appealing web interface for PetZone, an online pet
+                store.</li>
+              <li>Leveraged Tailwind's utility classes for efficient layout creation, resulting in a seamless browsing
+                experience across devices.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>PetZone</h3>
+              <p>This project is a frontend based with responsive UI.</p>
+              <a href="https://vishnu-petzone.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/petzone-tailwind-css.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEA3I8OnVMd2JV8nWVOGWbKFNIIi_dU5OclMnQcW3L9boVWr0xQtKYaCi48JchjkdYbf8&usqp=CAU"
+              alt="">
+            <h2 class="card-title">Analog Clock UI</h2>
+            <p class="card-description">Crafted an elegant and interactive analog clock user interface using HTML,
+              CSS and JavaScript.</p>
+            <ul class="text-align">
+              <li>The analog clock accurately displays the current time, providing a visually appealing
+                representation of time.</li>
+              <li>Implemented smooth animations and transitions for seamless movement of clock hands.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Analog Clock UI</h3>
+              <p>The analog clock UI project showcases my proficiency in HTML, CSS, and JavaScript, along with
+                attention to detail in creating visually engaging user interfaces.
+              </p>
+              <a href="https://simple-analogclock-ui.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/Clock-UI.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+          <div class="card-content">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="">
+            <h2 class="card-title">Car Showroom info</h2>
+            <p class="card-description">A dynamic React.js frontend showcasing car inventory and dealership details for
+              an engaging user experience.</p>
+            <ul class="text-align">
+              <li>Showroom Info React delivers an engaging and responsive user interface using React.js.</li>
+              <li>It provides comprehensive vehicle specifications and dealership details for a user-friendly
+                experience.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Showroom Info ReactJS</h3>
+              <p>The project focuses on performance optimization to ensure smooth and efficient user interactions,
+                contributing to a seamless browsing experience.</p>
+              <a href="https://vishnu-carshowroom-info.netlify.app/">Live</a>
+              <!-- <a href="https://github.com/vishnugowtham97/Showroom-info.git">Source</a> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION -->
+    <section class="work section" id="work">
+      <h2 class="section-title" data-aos="fade-down">Work</h2>
+
+      <!-- <div class="work_wraper">
+        <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
           <div class="card-2">
             <div class="card-content-2">
               <h3 class="card-title-2">Aquasub Engineering</h3>
-              <br/>
+              <br />
               <p class="card-para-2">Testing and Development</p>
-              <br/>
+              <br />
               <p class="card-para-2">Jun 2019 - Mar 2022</p>
             </div>
-          </div>            
-      </div>
-      <div
-        class="work_container bd_grid"
-        data-aos="fade-down"
-        data-aos-delay="250"
-      >
+          </div>
+        </div>
+        <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
           <div class="card-2">
             <div class="card-content-2">
               <h3 class="card-title-2">Web Developer Intern</h3>
-              <br/>
+              <br />
               <p class="card-para-2">TechnoHack Solution</p>
-              <br/>
+              <br />
               <p class="card-para-2">Jan 2024 - Mar 2024</p>
             </div>
-          </div>            
-      </div>
-      <div
-        class="work_container bd_grid"
-        data-aos="fade-down"
-        data-aos-delay="250"
-      >
+          </div>
+        </div>
+        <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
           <div class="card-2">
             <div class="card-content-2">
               <h3 class="card-title-2">Junior Software Developer</h3>
-              <br/>
+              <br />
               <p class="card-para-2">Wizinoa</p>
-              <br/>
+              <br />
               <p class="card-para-2">Jun 2024 - Present</p>
             </div>
-          </div>            
-      </div>
-    </div>
-      </section>
-
-      <!-- RESUME SECTION -->
-      <section class="resume-section" id="Resume">
-        <h2 class="section-title" data-aos="fade-down">Resume</h2>
-
-        <div
-          class="Resume_container bd_grid"
-          data-aos="fade-down"
-          data-aos-delay="250"
-        >
-        click to view Resume
-          <i class="bx bx-chevrons-right bx-flashing skill_icon"></i>
-          <a href="https://drive.google.com/file/d/10ixeitG86sMWGizCgbXczMBjjlmZbj98/view?usp=sharing" 
-          class="button resume_btn"><i class='bx bxs-download'></i></a>
+          </div>
         </div>
-      </section>
+      </div> -->
 
-      <!-- CONTACT SECTION -->
+      <div class="work_wraper">
+        <div class="work-container bd-grid" data-aos="fade-down" data-aos-delay="250">
+          <div class="expanding-card">
+            <div class="expanding-card-header">
+              <img src="data:image/png;base64,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" alt="Aquasub Engineering Logo" class="company-logo">
+              <h3 class="company-name">Aquasub Engineering</h3>
+            </div>
+            <div class="expanding-card-content">
+              <p class="expanding-card-role">Testing and Development</p>
+              <p class="expanding-card-duration">Jun 2019 - Mar 2022</p>
+              <div class="expanding-card-extra-info">
+                <p>Led a team in the production of high-performance motors for industrial applications. Oversaw quality
+                  control, team coordination, and process improvements, contributing to a 30% increase in production
+                  efficiency.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <section class="contact section" id="contact">
-        <h2 class="section-title" data-aos="fade-down">Contact</h2>
-        <div class="contact-section">
-          <div class="left_contact" data-aos="fade-right">
-            <div class="contact_container bd_grid">
-              <!-- <form action="#" class="contact_form">
+        <div class="work-container bd-grid" data-aos="fade-down" data-aos-delay="250">
+          <div class="expanding-card">
+            <div class="expanding-card-header">
+              <img src="data:image/png;base64,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" alt="TechnoHack Solution Logo" class="company-logo">
+              <h3 class="company-name">TechnoHack Solution</h3>
+            </div>
+            <div class="expanding-card-content">
+              <p class="expanding-card-role">Web Developer Intern</p>
+              <p class="expanding-card-duration">Jan 2024 - Mar 2024</p>
+              <div class="expanding-card-extra-info">
+                <p>Assisted in the development and optimization of web projects. Worked on building responsive designs,
+                  optimizing performance, and ensuring seamless user experiences for e-commerce and service-based
+                  websites.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-container bd-grid" data-aos="fade-down" data-aos-delay="250">
+          <div class="expanding-card">
+            <div class="expanding-card-header">
+              <img src="data:image/jpeg;base64,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" alt="Wizinoa Logo" class="company-logo">
+              <h3 class="company-name">Wizinoa</h3>
+            </div>
+            <div class="expanding-card-content">
+              <p class="expanding-card-role">Junior Software Developer</p>
+              <p class="expanding-card-duration">Jun 2024 - Present</p>
+              <div class="expanding-card-extra-info">
+                <p>
+                  As a Junior Software Developer at Wizinoa, I supported the development and optimization of key
+                  business systems, enhancing inventory, order, employee, and expense management workflows. I
+                  contributed to automating processes, improving data accuracy. My efforts led to increased efficiency,
+                  reduced errors, and streamlined operations across various internal systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="resume-section" id="Resume">
+      <h2 class="section-title" data-aos="fade-down">Resume</h2>
+
+      <div class="Resume_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+        click to view Resume
+        <i class="bx bx-chevrons-right bx-flashing skill_icon"></i>
+        <a href="https://drive.google.com/file/d/10ixeitG86sMWGizCgbXczMBjjlmZbj98/view?usp=sharing"
+          class="button resume_btn"><i class='bx bxs-download'></i></a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title" data-aos="fade-down">Contact</h2>
+      <div class="contact-section">
+        <div class="left_contact" data-aos="fade-right">
+          <div class="contact_container bd_grid">
+            <!-- <form action="#" class="contact_form">
                 <input
                   type="text"
                   placeholder="Name"
@@ -775,42 +816,24 @@
                   data-aos-delay="450"
                 />
               </form> -->
-              <h2 class="contact_head" data-aos="fade-down">Get in Touch</h2>
-              <br/>
+            <h2 class="contact_head" data-aos="fade-down">Get in Touch</h2>
+            <br />
             <div class="contact-social">
               <h3 data-aos="fade-down">Follow for more</h3>
               <div class="social-follow">
-                <a
-                href="https://www.linkedin.com/in/vishnugowtham97/"
-                class="footer_icon"
-                data-aos="fade-down"
-                data-aos-delay="250"
-                ><i class="bx bxl-linkedin-square"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/vishnu_the_b?igsh=MTA0Z2NtdmVzbzE2cg=="
-                class="footer_icon"
-                data-aos="fade-down"
-                data-aos-delay="350"
-                ><i class="bx bxl-instagram"></i
-              ></a>
-              <a
-                href="https://twitter.com/woolfyjr?t=6eAX97_dLUnFGQDNYlpLjw&s=09"
-                class="footer_icon"
-                data-aos="fade-down"
-                data-aos-delay="450"
-                ><i class="bx bxl-twitter"></i
-              ></a>
-              <a
-                href="https://github.com/vishnugowtham97"
-                class="footer_icon"
-                data-aos="fade-down"
-                data-aos-delay="550"
-                ><i class="bx bxl-github"></i
-              ></a>
+                <a href="https://www.linkedin.com/in/vishnugowtham97/" class="footer_icon" data-aos="fade-down"
+                  data-aos-delay="250"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://www.instagram.com/vishnu_the_b?igsh=MTA0Z2NtdmVzbzE2cg==" class="footer_icon"
+                  data-aos="fade-down" data-aos-delay="350"><i class="bx bxl-instagram"></i></a>
+                <a href="https://twitter.com/woolfyjr?t=6eAX97_dLUnFGQDNYlpLjw&s=09" class="footer_icon"
+                  data-aos="fade-down" data-aos-delay="450"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="footer_icon" data-aos="fade-down"
+                  data-aos-delay="550"><i class="bx bxl-github"></i></a>
               </div>
-              <h4 data-aos="fade-down"><span><i class='bx bxl-gmail'data-aos="fade-left" style="color: #4070f4"></i></span> vishnugowtham97@gmail.com</h4>
-              <h4 data-aos="fade-down"><span><i class='bx bxs-phone' data-aos="fade-left" style="color: #4070f4"></i></span> 9940884469</h4>
+              <h4 data-aos="fade-down"><span><i class='bx bxl-gmail' data-aos="fade-left"
+                    style="color: #4070f4"></i></span> vishnugowtham97@gmail.com</h4>
+              <!-- <h4 data-aos="fade-down"><span><i class='bx bxs-phone' data-aos="fade-left"
+                    style="color: #4070f4"></i></span> 9940884469</h4> -->
             </div>
           </div>
         </div>
@@ -821,28 +844,29 @@
         </div>
       </div>
       <h2 class="hire_me" data-aos="fade-up">Ready to contribute.Hire Me!</h2>
-      </section>
+    </section>
 
-      <!-- Footer Section -->
-      <footer class="footer">
-        <!-- <p class="footer_title" data-aos="fade-down">VISHNU B</p> -->
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- <p class="footer_title" data-aos="fade-down">VISHNU B</p> -->
 
-        <div class="footer_socials">
-          <p>
-            Build with <i class="bx bxl-visual-studio"></i> and ❤️ by Vishnu
-          </p>
-        </div>
-      </footer>
-    </main>
+      <div class="footer_socials">
+        <p>
+          Build with <i class="bx bxl-visual-studio"></i> and ❤️ by Vishnu
+        </p>
+      </div>
+    </footer>
+  </main>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./Js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./Js/script.js"></script>
 
-    <script>
-      AOS.init({
-        duration: 1200,
-        once: false,
-      });
-    </script>
-  </body>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: false,
+    });
+  </script>
+</body>
+
 </html>

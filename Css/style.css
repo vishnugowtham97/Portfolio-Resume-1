@@ -969,3 +969,127 @@ body.light {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
 }
+
+/*  work experience */
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.expanding-card {
+  width: 350px;
+  height: 350px;
+   background:rgb(255, 253, 249);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  color: black;
+  position: relative;
+  border: 2px solid #005bb5;
+  margin: 10px;
+}
+
+.expanding-card:hover {
+  height: fit-content;
+  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.expanding-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%;   */
+  margin-right: 15px;
+  border: 2px solid white;
+}
+
+.company-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: black;
+  margin: 0;
+}
+
+.expanding-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.expanding-card-role {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 5px 0;
+  color:blue;
+}
+
+.expanding-card-duration {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: black;
+}
+
+.expanding-card-extra-info {
+  display: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: black;
+}
+
+.expanding-card:hover .expanding-card-extra-info {
+  display: block;
+}
+
+.expanding-card:hover .expanding-card-role,
+.expanding-card:hover .expanding-card-duration {
+  color: #ffdd57; 
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.expanding-card-content .expanding-card-extra-info button {
+  background-color: #ff6600;
+  color: skyblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.expanding-card-content .expanding-card-extra-info button:hover {
+  background-color: #ff4500;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.expanding-card {
+  animation: fadeIn 0.8s ease-out;
+}
+.expanding-card-extra-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: #e6e6e6;
+}
+
+.expanding-card-extra-info ul li {
+  margin: 5px 0;
+}
