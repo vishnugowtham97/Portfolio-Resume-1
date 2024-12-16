@@ -462,6 +462,12 @@ img {
   text-align: center;
 }
 
+.work_wraper{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
 .work_container {
   row-gap: 2rem;
   display: flex;
@@ -575,6 +581,10 @@ img {
   .left_contact {
     width: 100%;
     text-align: center;
+  } 
+  .work_wraper{
+    flex-direction: column;
+    gap: 10px;
   }
   .work_container {
     display: flex;
